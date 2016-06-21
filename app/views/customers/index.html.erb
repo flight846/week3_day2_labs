@@ -1,5 +1,7 @@
 <ul>
     <% @customers.each do |c| %>
-        <li><%= c.name %></li>
+        <li><strong>Name:</strong><%= c.name %></li>
+        <li><strong>Address:</strong><%= c.address %></li>
     <% end %>
 </ul>
+<br>
